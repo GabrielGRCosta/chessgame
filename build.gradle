@@ -11,6 +11,10 @@ apply plugin: 'application'
 
 mainClassName = 'com.chessgame.Main'
 
+plugins {
+  id "org.sonarqube" version "3.3"
+}
+
 repositories {
     mavenCentral()
 }
